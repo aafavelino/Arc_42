@@ -1,0 +1,1 @@
+g++ -std=c++11 -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -Wl,-rpath=$SYSTEMC_HOME/lib-linux64 -o bin/exe src/main.cpp  src/ula.cpp src/codigo.cpp src/instruction_memory.cpp src/controller.cpp  -I include/ -lsystemc -lm 
